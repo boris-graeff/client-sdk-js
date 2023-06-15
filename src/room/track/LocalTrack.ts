@@ -182,7 +182,7 @@ export default abstract class LocalTrack extends Track {
     }
 
     log.debug('replace MediaStreamTrack');
-    this.setMediaStreamTrack(track);
+    await this.setMediaStreamTrack(track);
     // this must be synced *after* setting mediaStreamTrack above, since it relies
     // on the previous state in order to cleanup
     this.providedByUser = userProvidedTrack;
