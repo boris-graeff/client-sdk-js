@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.11.2
+
+### Patch Changes
+
+- Emit RoomEvent.ActiveDeviceChanged when `room.switchActiveDevice` has been called. - [#743](https://github.com/livekit/client-sdk-js/pull/743) ([@lukasIO](https://github.com/lukasIO))
+  Add room.getActiveDevice(kind) method.
+
+- Use JSdocs instead of warning for mediastreamtrack access - [#742](https://github.com/livekit/client-sdk-js/pull/742) ([@lukasIO](https://github.com/lukasIO))
+
 ## 1.11.1
 
 ### Patch Changes
